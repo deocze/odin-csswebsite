@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com");
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+/*Header first*/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #1f2937;
+  color: white;
+
+  padding: 10px 300px;
+}
+
+/*Making the list items look like regular elements*/
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(190, 190, 190);
+}
+/*Changing the color that occurs when links are hovered over*/
+a:hover {
+  color: white;
+}
+/*Making the list elements stay side by side*/
+header ul {
+  display: flex;
+  gap: 16px;
+}
+/*Moving on to the body section of the top part*/
+/*Formatting the text before doing anything*/
+h2 {
+  font-weight: 800;
+  font-size: 40px;
+  margin: 0;
+}
+h3 {
+  font-weight: 300;
+}
+.asd {
+  background-color: #1f2937;
+  margin: 0;
+  padding: 10px 300px;
+  color: white;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+}
