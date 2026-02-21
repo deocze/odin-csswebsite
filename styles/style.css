@@ -24,32 +24,86 @@ a {
   text-decoration: none;
   color: rgb(190, 190, 190);
 }
+/*Formatting the text before doing anything*/
+h1 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+#Headerh2 {
+  color: #f9faf8;
+  font-weight: 900;
+  font-size: 48px;
+  margin: 0;
+}
+
+h3 {
+  color: #e5e7eb;
+  font-weight: 400;
+  font-size: 18px;
+  filter: contrast(70%);
+}
 /*Changing the color that occurs when links are hovered over*/
 a:hover {
   color: white;
 }
+
 /*Making the list elements stay side by side*/
 header ul {
   display: flex;
   gap: 16px;
 }
 /*Moving on to the body section of the top part*/
-/*Formatting the text before doing anything*/
-h2 {
-  font-weight: 800;
-  font-size: 40px;
-  margin: 0;
-}
-h3 {
-  font-weight: 300;
-}
-.asd {
+
+/*Flex is used to put the elements side by side*/
+/*Padding is used to seperate it from other sections of the page*/
+.hText {
   background-color: #1f2937;
   margin: 0;
-  padding: 10px 300px;
+  padding: 10px 300px 100px;
   color: white;
+  display: flex;
 }
-button{
-    background-color: rgb(255, 255, 255);
-    padding: 8px;
+button {
+  font-weight: 800;
+  color: white;
+  background-color: #3882f6;
+  padding: 10px 30px;
+  border-radius: 8px;
+  border-style: none;
+}
+#hImage {
+  width: 500px;
+  height: 250px;
+  flex-shrink: 0;
+  align-self: center;
+  margin-left: 40px;
+}
+
+/*Second section css*/
+.Secondh2 {
+  color: #1f2937;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+}
+.Zimg {
+  /*making the pictures be side by side*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.Zimg img {
+  width: 200px;
+  height: 200px;
+  /*Making the border a certain thickness and a certain size*/
+  border-radius: 25px;
+  border: 5px;
+  border-color: #3882f6;
+  border-style: solid;
+}
+figcaption {
+  width: 200px;
+  text-align: center;
 }
