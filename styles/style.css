@@ -107,3 +107,49 @@ figcaption {
   width: 200px;
   text-align: center;
 }
+
+/*Third section*/
+.Third {
+  background-color: #e5e7eb;
+  padding: 75px 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Third p {
+  font-size: 36px;
+  color: #1f2937;
+}
+.quotation {
+  align-self: flex-end;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+/*Fourth Section*/
+
+.Fourth {
+  background-color: #3882f6;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 300px;
+  padding: 40px 150px;
+}
+.left {
+  color: white;
+}
+.Sign-Up {
+  border-color: white;
+  border-style: solid;
+}
+
+/*Last Section*/
+
+footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
